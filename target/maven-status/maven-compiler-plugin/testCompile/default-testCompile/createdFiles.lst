@@ -1,0 +1,6 @@
+Test_Methods\FirstPlayerPage.class
+Test_Methods\SecondPlayerPage.class
+ParallelBase\BaseTest22.class
+Test_Methods\RunFirstPlayer.class
+Test_Methods\RunSecondPlayer.class
+pageEvents\BaseTest.class

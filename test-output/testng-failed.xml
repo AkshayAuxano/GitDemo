@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Run Player Suit]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="First Test(failed)">
+    <parameter name="platformVersion" value="13"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <parameter name="deviceName" value="Pixel 6 Pro"/>
+    <parameter name="portNumber" value="7777"/>
+    <classes>
+      <class name="Test_Methods.RunFirstPlayer">
+        <methods>
+          <include name="firstExecutionMethod"/>
+          <include name="initiateDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- Test_Methods.RunFirstPlayer -->
+    </classes>
+  </test> <!-- First Test(failed) -->
+</suite> <!-- Failed suite [Run Player Suit] -->
